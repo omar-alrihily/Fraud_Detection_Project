@@ -86,7 +86,7 @@ st.markdown(
 st.sidebar.header('Input Credit Card Details')
 
 
-Amount = st.sidebar.number_input('Amount')    
+   
 V1 = st.sidebar.slider('V1', -5.0, 1.5, 5.0)
 V2 = st.sidebar.slider('V2', -5.0, 1.5, 5.0)
 V3 = st.sidebar.slider('V3', -5.0, 1.5, 5.0)
@@ -115,6 +115,8 @@ V25 = st.sidebar.slider('V25', -5.0, 1.5, 5.0)
 V26 = st.sidebar.slider('V26', -5.0, 1.5, 5.0)
 V27 = st.sidebar.slider('V27', -5.0, 1.5, 5.0)
 V28 = st.sidebar.slider('V28', -5.0, 1.5, 5.0)
+Time = st.sidebar.slider('Time', 0, 200000,100000)
+Amount = st.sidebar.number_input('Amount')
 
 
 data = {'V1': V1,
